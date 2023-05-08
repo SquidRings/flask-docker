@@ -20,5 +20,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build . --file Dockerfile --tag squidrings1/flask-docker:$(date +%s)
-        docker push squidrings1/flask-docker:$(date +%s)
+        docker build . --file Dockerfile --tag squidrings1/flask-docker:0.0.1.RELEASE
+        docker push squidrings1/flask-docker:0.0.1.RELEASE
